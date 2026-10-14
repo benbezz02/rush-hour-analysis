@@ -5,11 +5,9 @@
 Benjamin Bezzina
 Krane Kint Ediza Dabatos
 
-[Skånetrafiken public transport data (Google Drive)](https://drive.google.com/drive/folders/1dk5nIUQvKuFdWP_bqHSTBLJ0musdubZt?usp=drive_link)
-
 ## DataFrame Column Descriptions
 
-The DataFrame contains information about workers and their simulated commuting behavior.
+The DataFrame contains information about workers and their simulated commuting behavior for a certain date.
 
 | Column                     | Description                                                                                                                                                             |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,3 +28,5 @@ The DataFrame contains information about workers and their simulated commuting b
 * **Weighted probability distributions:** Desired arrival times, train selections, and waiting times are generated using weighted probability distributions.
 * **Time format:** Time values are represented in `HH:MM:SS` format.
 * **Target station:** The `in_'target_station'` column represents the worker’s estimated presence time at the station being studied.
+* The transportation data can be found here : [Skånetrafiken public transport data (Google Drive)](https://drive.google.com/drive/folders/1dk5nIUQvKuFdWP_bqHSTBLJ0musdubZt?usp=drive_link)
+* The workers data can be downloaded here: [Statistikdatabasen](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AM__AM0210__AM0210F/ArRegPend2/)
