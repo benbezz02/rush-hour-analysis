@@ -6,9 +6,6 @@
 This project simulates how commuters travel to their workplaces by train. It estimates the concentration of commuters at a selected target station based on their desired arrival times, likely train choices, and waiting times. Using the worker database, these three times are combined to simulate commuter concentrations at a specific station. The relevant times are sampled using weighted probability distributions, with configurable modes that influence the sampling process.
 
 For more details about the simulation methodology, see `CommuterSimulation.ipynb`.
-
-## Usage
-
 The simulation allows the user to select:
 
 - **Target station:** The station at which commuter concentrations will be studied.
