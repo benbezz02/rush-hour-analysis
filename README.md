@@ -7,6 +7,25 @@ This project simulates how commuters travel to their workplaces by train. It est
 
 For more details about the simulation methodology, see `CommuterSimulation.ipynb`.
 
+## Requirements
+
+- Python 3.11 (developed and tested with this version; other 3.10+ versions
+  will likely work but are untested)
+- All Python package dependencies are pinned in `requirements.txt`
+
+## Setup
+
+```bash
+# create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate 
+
+# install pinned dependencies
+pip install -r requirements.txt
+```
+
+Then open `CommuterModelling.ipynb` or `CommuterSimulation.ipynb` and run all cells top to bottom.
+
 ## Usage
 
 The simulation allows the user to select:
@@ -60,3 +79,11 @@ This project follows the FAIR principles: **Findable, Accessible, Interoperable,
 - **Accessible:** The project is publicly available, and the datasets can be downloaded by anyone. The project is licensed under the MIT License, and a `requirements.txt` file is provided to help users install the necessary dependencies.
 - **Interoperable:** The simulated data are stored in CSV format, which is widely supported by programming languages and data analysis tools, making the data easy to process and exchange.
 - **Reusable:** The MIT License permits reuse under its terms. The documented workflow, explanatory notebooks, public datasets, and listed software dependencies help others understand, reproduce, and build upon the project.
+
+#### Visualisation
+
+Since this project focuses on commuter concentrations over time, we use change-over-time visualisations, particularly line graphs, to present the simulated data and the results of the Poisson regression analysis. Accordingly, line graphs are well suited to time-series data because they make trends, fluctuations, and changes in values over time easy to identify.
+
+In our simulation, commuter presence at the target station is estimated from desired arrival times, train schedules, and waiting times. Plotting these estimates against time allows us to identify rush-hour peaks, compare commuter concentrations throughout the day, and observe periods of relatively low station activity.
+
+Line graphs are also useful for presenting the results of the Poisson regression model. By plotting the observed or simulated commuter counts alongside the model's predicted values over time, we can assess how well the model captures the overall patterns in commuter activity. Comparing these series helps identify whether the model reproduces peak commuting periods and daily fluctuations, as well as any differences between the observed and predicted concentrations.
