@@ -1,9 +1,6 @@
-# Rush Hour Analysis
+# Simulating and Modelling Train Rush Hours
+### A project for the BERN02 course by Krane Kint Ediza Dabatos and  Benjamin Bezzina.  
 
-## Group Members
-
-Benjamin Bezzina  
-Krane Kint Ediza Dabatos
 
 ## DataFrame Column Descriptions
 
