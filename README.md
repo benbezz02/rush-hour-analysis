@@ -35,7 +35,7 @@ The simulation allows the user to select:
 
 ## Statistical Modelling
 
-The simulated data are subsequently analysed using **Poisson regression** to model commuter concentrations at the target station. The modelling process and implementation are documented in `CommuterModelling.ipynb`.
+The simulated data are analysed using **Poisson regression** to model commuter concentrations at the target station. The modelling process and implementation are documented in `CommuterModelling.ipynb`.
 
 ## Workflow
 
@@ -47,7 +47,7 @@ The simulated data are subsequently analysed using **Poisson regression** to mod
 
 ## Data Description
 
-All relevant data including the workers database and the train schedules is found in `skane.zip`. The simulation outputs are stored in CSV format. Descriptions of the output columns are added here to explain the meaning of each variable and how it is used in the subsequent analysis.
+All relevant data including the workers database and the train schedules is found in `skane.zip`. The simulation outputs are stored in CSV format. Descriptions of the output columns are added here to explain the meaning of each variable and how it is used in the analysis.
 
 
 | Column                     | Description                                                                                                                                                             |
