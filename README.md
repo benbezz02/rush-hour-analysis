@@ -51,4 +51,12 @@ All relevant data including the workers database and the train schedules is foun
 * **Time format:** Time values are represented in `HH:MM:SS` format.
 * **Target station:** The `in_'target_station'` column represents the worker’s estimated presence time at the station being studied.
 * The transportation data can be found here : [Skånetrafiken public transport data](https://www.trafiklab.se/api/gtfs-datasets/gtfs-regional/)
-* The workers data can be downloaded here: [Statistikdatabasen](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AM__AM0210__AM0210F/ArRegPend2/)
+* The workers data can be downloaded here: [Statistikdatabasen](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__AM__AM0210__AM0210F/ArRegPend2/).
+
+#### FAIR Principles
+This project follows the FAIR principles: **Findable, Accessible, Interoperable, and Reusable**.
+
+- **Findable:** The project includes relevant keywords, a clear description of its purpose, and an overview of the workflow. Each file is described in the README, and the notebooks explain the code and the steps involved in the analysis.
+- **Accessible:** The project is publicly available, and the datasets can be downloaded by anyone. The project is licensed under the MIT License, and a `requirements.txt` file is provided to help users install the necessary dependencies.
+- **Interoperable:** The simulated data are stored in CSV format, which is widely supported by programming languages and data analysis tools, making the data easy to process and exchange.
+- **Reusable:** The MIT License permits reuse under its terms. The documented workflow, explanatory notebooks, public datasets, and listed software dependencies help others understand, reproduce, and build upon the project.
